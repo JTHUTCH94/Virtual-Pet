@@ -35,7 +35,7 @@ function clickedPlayButton() {
   pet_info['dirty'] = true; //Pet is dirty from playing
   $('.head').css('background-color', 'brown');
   $('.butt').css('background-color', 'brown');
-  $('.ball').animate({up: '50px', down: '50px'});
+  checkAndUpdatePetInfoInHtml();
 }
 
 function clickedExerciseButton() {

@@ -1,3 +1,18 @@
+html{
+        background: -moz-radial-gradient(black 25%, transparent 16%),
+        -moz-radial-gradient(black 25%, transparent 16%),
+        white;
+        background:
+        -webkit-radial-gradient(black 25%, transparent 16%),
+        -webkit-radial-gradient(black 25%, transparent 16%),
+        white;
+    background-position: 0 0, 80px 80px;
+    
+    -webkit-background-size:180px 180px;
+    -moz-background-size:180px 180px;
+    background-size:180px 180px;
+}
+
 .container{
     display: flex;
     flex-direction: row;
